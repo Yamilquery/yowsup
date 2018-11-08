@@ -31,7 +31,7 @@ class YowsupCliLayer(Cli, YowInterfaceLayer):
     EVENT_START             = "org.openwhatsapp.yowsup.event.cli.start"
     EVENT_SENDANDEXIT       = "org.openwhatsapp.yowsup.event.cli.sendandexit"
 
-    MESSAGE_FORMAT          = "[{FROM}({TIME})]:[{MESSAGE_ID}]\t {MESSAGE}"
+    MESSAGE_FORMAT          = u"[{FROM}({TIME})]:[{MESSAGE_ID}]\t {MESSAGE}"
 
     FAIL_OPT_PILLOW         = "No PIL library installed, try install pillow"
     FAIL_OPT_AXOLOTL        = "axolotl is not installed, try install python-axolotl"
